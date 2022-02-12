@@ -47,8 +47,8 @@ public class MainController {
         return "ui/booleanButton.xhtml";
     }
 
-    public String onBooleanCheckbox() {
-        return "ui/booleanCheckbox.xhtml";
+    public String onBooleanCheckBox() {
+        return "ui/booleanCheckBox.xhtml";
     }
 
     public String onCalendar() {
@@ -69,5 +69,8 @@ public class MainController {
 
     public String onInputMask() {
         return "ui/inputMask.xhtml";
+    }
+    public String onListBox() {
+        return "ui/listBox.xhtml";
     }
 }

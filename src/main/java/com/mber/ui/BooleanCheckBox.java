@@ -7,7 +7,7 @@ import javax.inject.Named;
 
 @Named
 @RequestScoped
-public class BooleanCheckbox {
+public class BooleanCheckBox {
     private boolean value;
 
     public boolean isValue() {
