@@ -1,4 +1,4 @@
-package com.mber.ajax;
+package ajax;
 
 
 import javax.enterprise.context.RequestScoped;

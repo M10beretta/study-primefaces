@@ -1,5 +1,3 @@
-package com.mber;
-
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 import java.io.Serializable;

@@ -1,4 +1,4 @@
-package com.mber.ui;
+package ui;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;

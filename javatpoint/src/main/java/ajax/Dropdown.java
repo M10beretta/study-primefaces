@@ -1,4 +1,4 @@
-package com.mber.ajax;
+package ajax;
 
 
 import javax.annotation.PostConstruct;

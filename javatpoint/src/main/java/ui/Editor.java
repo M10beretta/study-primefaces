@@ -1,11 +1,11 @@
-package com.mber.ajax;
+package ui;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Named;
 
 @Named
 @RequestScoped
-public class ListenerBean {
+public class Editor {
     private String text;
 
     public String getText() {
@@ -14,9 +14,5 @@ public class ListenerBean {
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public void ajaxEvent() {
-        text = text.toUpperCase();
     }
 }
